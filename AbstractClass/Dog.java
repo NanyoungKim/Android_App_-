@@ -1,5 +1,5 @@
 
-public class Dog extends Animal{
+public class Dog extends Animal implements Pet {
  
  public Dog(String name) { super(name); }
 
@@ -7,6 +7,12 @@ public class Dog extends Animal{
  public void Cry(){
    System.out.println(name + "!");
  }
+ 
+ 
+ @Override
+ public void FoodCall() {
+    System.out.printlm("......");
+ } 
  
 }
 
