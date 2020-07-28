@@ -11,7 +11,7 @@ public class Dog extends Animal implements Pet {
  
  @Override
  public void FoodCall() {
-    System.out.println("......");
+    System.out.println(name + "!!!");
  } 
  
 }
